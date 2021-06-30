@@ -1,8 +1,10 @@
 #!/usr/bin/env python3.7.4
 
 from shutil import copyfile
+#edit me
 whichClass = input("intro, advanced, or ei? ")
 whichFile = input("filename? ")
+#edit me
 if(whichClass == "intro"):
 	students = open("students9-10.txt", "r")
 elif(whichClass == "advanced"):
